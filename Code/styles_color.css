@@ -1,0 +1,248 @@
+body
+{
+    background-color: darkblue;
+}
+
+#title
+{
+    font-size: 40px;
+    width: 95%;
+    margin: 3% 3%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+
+#title2
+{
+    font-size: 20px;
+    width: 95%;
+    margin: 3% 3%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+#title3
+{
+    font-size: 12px;
+    width: 95%;
+    margin: 3% 3%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+#PasswordError
+{
+    font-size: 20px;
+    width: 95%;
+    margin: 3% 3%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #E9FF00;
+}
+#newContactResult
+{
+    font-size: 20px;
+    width: 95%;
+    margin: 3% 3%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #E9FF00;
+}
+#userResult
+{
+    font-size: 20px;
+    width: 95%;
+    margin: 3% 3%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #E9FF00;
+}
+#deleteContactResult
+{
+    font-size: 20px;
+    width: 95%;
+    margin: 3% 3%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #E9FF00;
+}
+#loginDiv
+{
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 65%;
+    margin-left: 15%;
+    padding: 25px;
+    background-color: blue;
+}
+
+#loggedInDiv
+{
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 65%;
+    margin-left: 15%;
+    padding: 25px;
+    background-color: blue;
+}
+
+#accessUIDiv
+{
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 65%;
+    margin-left: 15%;
+    padding: 25px;
+    background-color: blue;
+}
+
+.buttons
+{
+    font-size: 25px;
+    width: 50%;
+    margin-left: 25%;
+    font-family: sans-serif;
+}
+
+.buttons:hover{
+    background-color: darkblue;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+
+#firstName
+{
+	font-size: 25px;
+}
+#lastName
+{
+	font-size: 25px;
+}
+#firstNameNewContact
+{
+	font-size: 25px;
+}
+#lastNameNewContact
+{
+	font-size: 25px;
+}
+#Username
+{
+	font-size: 25px;
+}
+#Password
+{
+	font-size: 25px;
+}
+#ConfirmPassword
+{
+	font-size: 25px;
+}
+#loginName
+{
+	font-size: 30px;
+}
+#loginPassword
+{
+	font-size: 30px;
+}
+#phone
+{
+	font-size: 25px;
+}
+#existingPhone
+{
+	font-size: 25px;
+}
+#zip
+{
+	font-size: 25px;
+}
+#email
+{
+	font-size: 25px;
+}
+#CreateContactButton
+{
+	font-size: 25px;
+}
+#searchText
+{
+	font-size: 25px;
+}
+#colorText
+{
+	font-size: 25px;
+}
+
+input[type="text"],input[type="password"]{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+}
+
+#inner-title{
+    display: block;
+    font-size: 25px;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: blue;
+}
+
+#loginResult{
+    display: inline-block;
+    font-size: 0.8em;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+}
+
+#userName{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#logoutButton{
+    width: 20%;
+    margin-left: 40%;
+}
+
+select{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+    font-size: 0.75em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#colorSearchResult{
+    display: none;
+}
+
+#colorAddResult{
+    display: inline-block;
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+}
